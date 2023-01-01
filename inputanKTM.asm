@@ -5,11 +5,11 @@ ORG 100H
 
   AWAL:
     JMP PROSES
-    KAL0 DB 'MASUKKAN DATA ANDA. $'
+    KAL0 DB 'kartu Tanda Mahasiswa $'
     KAL1 DB 13,10,'MASUKKAN NIM     : $'
     KAL2 DB 13,10,'MASUKKAN NAMA    : $'
     KAL3 DB 13,10,'MASUKKAN JURUSAN : $'
-    KAL4 DB 13,10,'BERIKUT INI DATA ANDA. $'
+    KAL4 DB 13,10,' $'
     KALX DB 13,10,'$'
     NAMA DB 40,?,40 DUP <?>
     NIM DB 40,?,40 DUP <?>
